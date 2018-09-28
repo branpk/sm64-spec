@@ -1,0 +1,3 @@
+[submodule "extern/sm64_source"]
+	path = extern/sm64_source
+	url = https://github.com/SM64-TAS-ABC/sm64_source
