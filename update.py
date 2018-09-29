@@ -131,6 +131,8 @@ def get_param_type(decl):
   real_type = get_real_type(type_)
   if real_type['kind'] == 'array':
     return {'kind': 'ptr', 'base': type_}
+  if real_type['kind'] == 'prim' and real_type['name'] == 'void':
+    return None
   return type_
 
 def get_param_list(param_list):
@@ -142,14 +144,11 @@ def get_param_list(param_list):
   variadic = False
   for param in param_list.params:
 
-    if type(param) is c_ast.Decl:
-      assert param.name is not None
-      params.append([param.name, get_param_type(param.type)])
-      continue
-
-    elif type(param) is c_ast.Typename:
-      assert param.name is None
-      params.append(['', get_param_type(param.type)])
+    if type(param) in [c_ast.Decl, c_ast.Typename]:
+      param_name = '' if param.name is None else param.name
+      param_type = get_param_type(param.type)
+      if param_type is not None:
+        params.append([param_name, param_type])
       continue
 
     elif type(param) is c_ast.EllipsisParam:
