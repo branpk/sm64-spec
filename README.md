@@ -35,8 +35,8 @@ python3 update.py
 
 ## Format
 
-sm64.json parses to a map with three entries: `structs`, `unions`, `typedefs`, `globals`,
-and `object_fields`. Each of these is defined in later sections.
+sm64.json parses to a map with three entries: `struct`, `union`, `typedef`, `global`,
+and `object_field`. Each of these is defined in later sections.
 
 ### Types
 
@@ -47,11 +47,12 @@ is. The possibilities are:
 * `{"kind": "struct", "def": <struct definition>}`
 * `{"kind": "union",  "def": <struct definition>}`
 * `{"kind": "ptr",    "base": <base type>}`
-* `{"kind": "array",  "size": <array size or -1>, "base": <base type>}`
-* `{"kind": "func",   "ret": <return type>, "params": [[<param name>, <param type>], ...]}`
+* `{"kind": "array",  "len": <array length or -1>, "base": <base type>}`
+* `{"kind": "func",   "ret": <return type>, "params": <param list>, "variadic": <bool>}`
 * `{"kind": "sym",    "symtype": <symbol type>, "name": <symbol name>}`
 
 The primitive names are:
+* `char`
 * `s8`
 * `u8`
 * `s16`
@@ -76,11 +77,16 @@ A struct definition is a map from field names to a map of the form
 ```
 The offsets can be overlapping in the case of unions.
 
+A param list is a list with elements of the form `[<param name>, <param type>]`.
+If a parameter is unnamed, the name will be `""`.
+If the function is variadic or declared with an empty parameter list in C, then
+the "variadic" field is true.
+
 A symbol is a reference to a named struct, union, or typedef. The symbol types are
 "struct", "union", and "typedef". These symbols are looked up in the corresponding
 file section.
 
-### structs, unions, and typedefs
+### struct, union, and typedef
 
 These three sections each contain a map from symbol name to a type. For structs
 and unions, these types must have kind `struct` or `union` respectively.
@@ -99,7 +105,7 @@ union C {
 would result in the following sections:
 ```
 {
-  "structs": {
+  "struct": {
     "A": {
       "kind": "struct",
       "def": {
@@ -108,7 +114,7 @@ would result in the following sections:
       }
     }
   },
-  "unions": {
+  "union": {
     "C": {
       "kind": "union",
       "def": {
@@ -117,15 +123,15 @@ would result in the following sections:
       }
     }
   },
-  "typedefs": {
+  "typedef": {
     "B": {"kind": "sym", "symtype": "struct", "name": "A"}
   }
 }
 ```
 
-### globals
+### global
 
-The `globals` section is a map from variable and function names to a map
+The `global` section is a map from variable and function names to a map
 containing a "type" entry. For example:
 ```
 "gGlobalTimer": {"type": {"kind": "prim", "name": "u32"}},
@@ -141,9 +147,9 @@ containing a "type" entry. For example:
 }
 ```
 
-### object_fields
+### object_field
 
-The `object_fields` section describes object fields for each kind of object.
+The `object_field` section describes object fields for each kind of object.
 
 Each entry has a key corresponding to the object name - for example "bAbcDef" would
 have an entry "AbcDef". There is an additional entry "common" that contains
