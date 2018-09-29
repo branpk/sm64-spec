@@ -288,4 +288,6 @@ for i in range(len(cfiles)):
     process_ext(ext)
 
 with open('sm64.json', 'w') as f:
+  f.write(json.dumps(data, separators=(',',':')))
+with open('sm64_pretty.json', 'w') as f:
   f.write(json.dumps(data, indent=2))

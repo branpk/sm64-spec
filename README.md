@@ -15,6 +15,9 @@ complete and correct over time.
 Notably, it does not contain any global addresses. Instead, these addresses
 should be looked up in a generated .map file from the decomp.
 
+sm64.json contains a minified version of the data, and sm64_pretty.json contains
+an indented version.
+
 ## Generating sm64.json
 
 If you want to update sm64.json with new data from the decomp, first make sure
@@ -35,7 +38,7 @@ python3 update.py
 
 ## Format
 
-sm64.json parses to a map with three entries: `struct`, `union`, `typedef`, `global`,
+sm64.json parses to a map with five entries: `struct`, `union`, `typedef`, `global`,
 and `object_field`. Each of these is defined in later sections.
 
 ### Types
