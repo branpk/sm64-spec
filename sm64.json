@@ -13902,14 +13902,17 @@
           [
             "mf",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -23691,9 +23694,12 @@
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -23725,9 +23731,12 @@
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -24469,11 +24478,14 @@
           [
             "texture",
             {
-              "kind": "array",
-              "len": -1,
+              "kind": "ptr",
               "base": {
-                "kind": "prim",
-                "name": "u8"
+                "kind": "array",
+                "len": -1,
+                "base": {
+                  "kind": "prim",
+                  "name": "u8"
+                }
               }
             }
           ]
@@ -24506,11 +24518,14 @@
           [
             "texture",
             {
-              "kind": "array",
-              "len": -1,
+              "kind": "ptr",
               "base": {
-                "kind": "prim",
-                "name": "u8"
+                "kind": "array",
+                "len": -1,
+                "base": {
+                  "kind": "prim",
+                  "name": "u8"
+                }
               }
             }
           ]
@@ -26413,17 +26428,23 @@
           [
             "sp28",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ],
           [
             "sp2c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ]
         ],
@@ -26484,9 +26505,12 @@
           [
             "sp28",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ]
         ],
@@ -26547,9 +26571,12 @@
           [
             "sp28",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ]
         ],
@@ -26666,25 +26693,34 @@
           [
             "pos",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "angle",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ],
           [
             "scale",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -26790,9 +26826,12 @@
           [
             "relativePos",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ]
         ],
@@ -26853,9 +26892,12 @@
           [
             "sp28",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ]
         ],
@@ -27182,9 +27224,12 @@
           [
             "sp24",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ],
           [
@@ -27413,17 +27458,23 @@
           [
             "sp20",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "sp24",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ]
         ],
@@ -27624,9 +27675,12 @@
           [
             "sp2c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -27674,9 +27728,12 @@
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -27707,9 +27764,12 @@
           [
             "dst",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ],
           [
@@ -27740,9 +27800,12 @@
           [
             "dst",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ],
           [
@@ -29046,9 +29109,12 @@
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Mat4"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Mat4"
+              }
             }
           ],
           [
@@ -29088,17 +29154,23 @@
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Mat4"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Mat4"
+              }
             }
           ],
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Mat4"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Mat4"
+              }
             }
           ]
         ],
@@ -29716,14 +29788,17 @@
           [
             "",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -29731,17 +29806,23 @@
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -29759,14 +29840,17 @@
           [
             "",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -29774,17 +29858,23 @@
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -31895,17 +31985,23 @@
           [
             "dest",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "src",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -31926,9 +32022,12 @@
           [
             "dest",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -31970,17 +32069,23 @@
           [
             "dest",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -32001,25 +32106,34 @@
           [
             "dest",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -32040,17 +32154,23 @@
           [
             "dest",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ],
           [
             "src",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ]
         ],
@@ -32071,9 +32191,12 @@
           [
             "dest",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ],
           [
@@ -32115,17 +32238,23 @@
           [
             "dest",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ],
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ]
         ],
@@ -32146,25 +32275,34 @@
           [
             "dest",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ],
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ],
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ]
         ],
@@ -32185,17 +32323,23 @@
           [
             "dest",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ],
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ]
         ],
@@ -32216,17 +32360,23 @@
           [
             "dest",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ]
         ],
@@ -32247,17 +32397,23 @@
           [
             "dest",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ],
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -32278,33 +32434,45 @@
           [
             "dest",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -32325,25 +32493,34 @@
           [
             "dest",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -32364,9 +32541,12 @@
           [
             "dest",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -32384,14 +32564,17 @@
           [
             "dest",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -32399,14 +32582,17 @@
           [
             "src",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -32426,14 +32612,17 @@
           [
             "mtx",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -32453,14 +32642,17 @@
           [
             "a",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -32468,9 +32660,12 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -32488,14 +32683,17 @@
           [
             "mtx",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -32503,17 +32701,23 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -32538,14 +32742,17 @@
           [
             "mtx",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -32553,17 +32760,23 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ]
         ],
@@ -32581,14 +32794,17 @@
           [
             "mtx",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -32596,17 +32812,23 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ]
         ],
@@ -32624,14 +32846,17 @@
           [
             "mtx1",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -32639,14 +32864,17 @@
           [
             "mtx2",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -32654,9 +32882,12 @@
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -32681,14 +32912,17 @@
           [
             "mtx",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -32696,17 +32930,23 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -32731,14 +32971,17 @@
           [
             "mtx",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -32746,9 +32989,12 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -32780,14 +33026,17 @@
           [
             "dest",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -32795,14 +33044,17 @@
           [
             "a",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -32810,14 +33062,17 @@
           [
             "b",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -32837,14 +33092,17 @@
           [
             "a",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -32852,14 +33110,17 @@
           [
             "b",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -32867,9 +33128,12 @@
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -32887,14 +33151,17 @@
           [
             "a",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -32902,9 +33169,12 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ]
         ],
@@ -32933,14 +33203,17 @@
           [
             "b",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -32990,22 +33263,28 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "b",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -33013,14 +33292,17 @@
           [
             "c",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -33040,17 +33322,23 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -33098,17 +33386,23 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -33279,9 +33573,12 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec4f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec4f"
+              }
             }
           ],
           [
@@ -33336,9 +33633,12 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -33839,17 +34139,23 @@
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -33867,9 +34173,12 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -33928,9 +34237,12 @@
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -34106,17 +34418,23 @@
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -34162,17 +34480,23 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -34215,25 +34539,34 @@
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -34258,17 +34591,23 @@
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -34297,17 +34636,23 @@
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -34345,17 +34690,23 @@
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -34373,17 +34724,23 @@
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -34401,17 +34758,23 @@
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -34436,17 +34799,23 @@
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -34917,33 +35286,45 @@
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ]
         ],
@@ -34961,17 +35342,23 @@
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -35666,17 +36053,23 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -35729,17 +36122,23 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -35864,17 +36263,23 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -35910,17 +36315,23 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -35949,17 +36360,23 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -36129,17 +36546,23 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -36191,17 +36614,23 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -36230,17 +36659,23 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -36269,17 +36704,23 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -36308,17 +36749,23 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -36435,17 +36882,23 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -36543,17 +36996,23 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -36605,17 +37064,23 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -36748,17 +37213,23 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -36810,17 +37281,23 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -36964,17 +37441,23 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -37078,17 +37561,23 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -37188,17 +37677,23 @@
               [
                 "",
                 {
-                  "kind": "sym",
-                  "symtype": "typedef",
-                  "name": "Vec3f"
+                  "kind": "ptr",
+                  "base": {
+                    "kind": "sym",
+                    "symtype": "typedef",
+                    "name": "Vec3f"
+                  }
                 }
               ],
               [
                 "",
                 {
-                  "kind": "sym",
-                  "symtype": "typedef",
-                  "name": "Vec3f"
+                  "kind": "ptr",
+                  "base": {
+                    "kind": "sym",
+                    "symtype": "typedef",
+                    "name": "Vec3f"
+                  }
                 }
               ]
             ],
@@ -37218,49 +37713,67 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "d",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "e",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "f",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -37285,17 +37798,23 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -37327,17 +37846,23 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -37412,17 +37937,23 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -37440,17 +37971,23 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -37490,17 +38027,23 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -38083,9 +38626,12 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -38103,9 +38649,12 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ],
           [
@@ -38159,41 +38708,56 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "d",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "e",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "f",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -38211,9 +38775,12 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -38276,9 +38843,12 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ],
           [
@@ -38317,9 +38887,12 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -38424,17 +38997,23 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -38473,17 +39052,23 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ],
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ],
           [
@@ -38705,9 +39290,12 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -38766,25 +39354,34 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -39084,11 +39681,14 @@
           [
             "a",
             {
-              "kind": "array",
-              "len": -1,
+              "kind": "ptr",
               "base": {
-                "kind": "prim",
-                "name": "f32"
+                "kind": "array",
+                "len": -1,
+                "base": {
+                  "kind": "prim",
+                  "name": "f32"
+                }
               }
             }
           ],
@@ -39135,11 +39735,14 @@
           [
             "a",
             {
-              "kind": "array",
-              "len": -1,
+              "kind": "ptr",
               "base": {
-                "kind": "prim",
-                "name": "f32"
+                "kind": "array",
+                "len": -1,
+                "base": {
+                  "kind": "prim",
+                  "name": "f32"
+                }
               }
             }
           ],
@@ -39186,25 +39789,34 @@
           [
             "a",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "c",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ],
           [
@@ -39587,25 +40199,34 @@
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ],
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ],
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ]
         ],
@@ -42003,9 +42624,12 @@
           [
             "capPos",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3s"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3s"
+              }
             }
           ]
         ],
@@ -42652,14 +43276,17 @@
           [
             "c",
             {
-              "kind": "array",
-              "len": 4,
+              "kind": "ptr",
               "base": {
                 "kind": "array",
                 "len": 4,
                 "base": {
-                  "kind": "prim",
-                  "name": "f32"
+                  "kind": "array",
+                  "len": 4,
+                  "base": {
+                    "kind": "prim",
+                    "name": "f32"
+                  }
                 }
               }
             }
@@ -48773,11 +49400,14 @@
           [
             "",
             {
-              "kind": "array",
-              "len": -1,
+              "kind": "ptr",
               "base": {
-                "kind": "prim",
-                "name": "s16"
+                "kind": "array",
+                "len": -1,
+                "base": {
+                  "kind": "prim",
+                  "name": "s16"
+                }
               }
             }
           ]
@@ -50447,9 +51077,12 @@
           [
             "dist",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -61999,9 +62632,12 @@
           [
             "nextPos",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -63159,9 +63795,12 @@
           [
             "startPos",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -64962,9 +65601,12 @@
           [
             "nextPos",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -64993,9 +65635,12 @@
           [
             "step",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -66286,9 +66931,12 @@
           [
             "nextPos",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -66328,17 +66976,23 @@
           [
             "intendedPos",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
             "nextPos",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ]
         ],
@@ -66367,9 +67021,12 @@
           [
             "intendedPos",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Vec3f"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
             }
           ],
           [
@@ -68896,25 +69553,34 @@
           [
             "a0",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Mat4"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Mat4"
+              }
             }
           ],
           [
             "a1",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Mat4"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Mat4"
+              }
             }
           ],
           [
             "a2",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Mat4"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Mat4"
+              }
             }
           ]
         ],
@@ -72626,9 +73292,12 @@
           [
             "b",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Mat4"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Mat4"
+              }
             }
           ]
         ],
@@ -80468,9 +81137,12 @@
           [
             "",
             {
-              "kind": "sym",
-              "symtype": "typedef",
-              "name": "Mat4"
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Mat4"
+              }
             }
           ]
         ],

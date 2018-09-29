@@ -4,6 +4,13 @@ import sys, os, glob, subprocess, json
 from pycparser import c_parser, c_ast
 
 
+# TODO:
+#   Type/global merging (e.g. function decls w/o named params)
+#   Object fields
+#   Enum parsing
+#   Define parsing
+
+
 def parse_c_int(s):
   s = s.strip()
   if s[0] == '-':
@@ -73,7 +80,14 @@ def get_union_size(fields):
 def get_struct_align(fields):
   return max(map(lambda f: get_type_size_and_align(f['type'])[1], fields.values()))
 
+def get_real_type(type_):
+  if type_['kind'] == 'sym':
+    return get_real_type(data[type_['symtype']][type_['name']])
+  return type_
+
 def get_type_size_and_align(type_):
+  type_ = get_real_type(type_)
+
   if type_['kind'] == 'prim':
     size = primitive_types[type_['name']]
     return size, size
@@ -88,8 +102,7 @@ def get_type_size_and_align(type_):
     return type_['len'] * size, align
   elif type_['kind'] == 'func':
     pass
-  elif type_['kind'] == 'sym':
-    return get_type_size_and_align(data[type_['symtype']][type_['name']])
+
   raise NotImplementedError('get_type_size_and_align: ' + str(type_))
 
 def get_struct_def(decls, union=False):
@@ -113,6 +126,13 @@ def get_struct_def(decls, union=False):
 
   return defn
 
+def get_param_type(decl):
+  type_ = get_type_from_decl(decl)
+  real_type = get_real_type(type_)
+  if real_type['kind'] == 'array':
+    return {'kind': 'ptr', 'base': type_}
+  return type_
+
 def get_param_list(param_list):
   if param_list is None:
     return [], True
@@ -124,12 +144,12 @@ def get_param_list(param_list):
 
     if type(param) is c_ast.Decl:
       assert param.name is not None
-      params.append([param.name, get_type_from_decl(param.type)])
+      params.append([param.name, get_param_type(param.type)])
       continue
 
     elif type(param) is c_ast.Typename:
       assert param.name is None
-      params.append(['', get_type_from_decl(param.type)])
+      params.append(['', get_param_type(param.type)])
       continue
 
     elif type(param) is c_ast.EllipsisParam:
@@ -190,7 +210,6 @@ def get_type_from_decl(decl):
     return {'kind': 'func', 'ret': get_type_from_decl(decl.type), 'params': params, 'variadic': variadic}
 
   elif type(decl) is c_ast.Enum:
-    # TODO: We could maybe parse enums as well
     return {'kind': 'prim', 'name': 's32'}
 
   raise NotImplementedError('get_type_from_decl: ' + str(decl))
@@ -239,7 +258,6 @@ srcpaths = [
 cfiles = []
 for path in srcpaths:
   cfiles += glob.glob(os.path.normpath('extern/sm64_source/' + path + '/*.c'))
-# cfiles = ['test.c']
 
 if len(cfiles) == 0:
   print('Error: No input files (did you checkout sm64_source?)')
@@ -250,8 +268,7 @@ parser = c_parser.CParser()
 
 for i in range(len(cfiles)):
   cfile = cfiles[i]
-  filename = cfile[len('extern/sm64_source/'):] # TODO: Uncomment
-  # filename = cfile
+  filename = cfile[len('extern/sm64_source/'):]
   print('(%d/%d) %s' % (i+1, len(cfiles), filename))
 
   ofile = 'build/' + filename

@@ -4,9 +4,9 @@
 sm64.json is a file containing descriptions for data structures in Super
 Mario 64.
 It includes:
-- struct definitions (WIP)
-- global variables and their types (WIP)
-- functions and their types (WIP)
+- struct definitions
+- global variables and their types
+- functions and their types
 - object fields (WIP)
 
 It is generated from the SM64 matching decomp, and as such will become more
@@ -52,19 +52,19 @@ is. The possibilities are:
 * `{"kind": "sym",    "symtype": <symbol type>, "name": <symbol name>}`
 
 The primitive names are:
-* `char`
-* `s8`
-* `u8`
-* `s16`
-* `u16`
-* `s32`
-* `u32`
-* `s64`
-* `u64`
-* `f32`
-* `f64`
-* `void`
-* `size_t`
+`char`,
+`s8`,
+`u8`,
+`s16`,
+`u16`,
+`s32`,
+`u32`,
+`s64`,
+`u64`,
+`f32`,
+`f64`,
+`void`,
+`size_t`
 
 A struct definition is a map from field names to a map of the form
 `{"type": <type>, "offset": <offset>}`. For example:
@@ -81,6 +81,8 @@ A param list is a list with elements of the form `[<param name>, <param type>]`.
 If a parameter is unnamed, the name will be `""`.
 If the function is variadic or declared with an empty parameter list in C, then
 the "variadic" field is true.
+Unlike C, we differentiate between arrays and pointers in parameters; parameters
+with array type in C are translated into pointers.
 
 A symbol is a reference to a named struct, union, or typedef. The symbol types are
 "struct", "union", and "typedef". These symbols are looked up in the corresponding
@@ -147,7 +149,7 @@ containing a "type" entry. For example:
 }
 ```
 
-### object_field
+### object_field (not implemented)
 
 The `object_field` section describes object fields for each kind of object.
 
