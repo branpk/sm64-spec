@@ -66,8 +66,7 @@ The primitive names are:
 `u64`,
 `f32`,
 `f64`,
-`void`,
-`size_t`
+`void`
 
 A struct definition is a map from field names to a map of the form
 `{"type": <type>, "offset": <offset>}`. For example:

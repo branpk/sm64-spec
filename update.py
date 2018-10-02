@@ -55,7 +55,6 @@ primitive_types = {
   'f32': 4,
   'f64': 8,
   'void': 4,
-  'size_t': 4,
 }
 
 c_primitives = {
@@ -64,8 +63,9 @@ c_primitives = {
   'short': 's16',
   'unsigned short': 'u16',
   'int': 's32',
-  'unsigned int': 'u32',
   'long int': 's32',
+  'unsigned int': 'u32',
+  'unsigned long': 'u32',
   'long long int': 's64',
   'float': 'f32',
   'double': 'f64',

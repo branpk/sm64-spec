@@ -10590,6 +10590,10 @@
     }
   },
   "typedef": {
+    "size_t": {
+      "kind": "prim",
+      "name": "u32"
+    },
     "vu8": {
       "kind": "prim",
       "name": "u8"
@@ -13742,7 +13746,8 @@
           [
             "size",
             {
-              "kind": "prim",
+              "kind": "sym",
+              "symtype": "typedef",
               "name": "size_t"
             }
           ]
@@ -13771,7 +13776,8 @@
           [
             "size",
             {
-              "kind": "prim",
+              "kind": "sym",
+              "symtype": "typedef",
               "name": "size_t"
             }
           ]
