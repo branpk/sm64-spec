@@ -55,7 +55,6 @@ is. The possibilities are:
 * `{"kind": "sym",    "symtype": <symbol type>, "name": <symbol name>}`
 
 The primitive names are:
-`char`,
 `s8`,
 `u8`,
 `s16`,

@@ -43,7 +43,6 @@ data = {
 }
 
 primitive_types = {
-  'char': 1,
   's8': 1,
   'u8': 1,
   's16': 2,
@@ -58,6 +57,7 @@ primitive_types = {
 }
 
 c_primitives = {
+  'char': 's8',
   'signed char': 's8',
   'unsigned char': 'u8',
   'short': 's16',
