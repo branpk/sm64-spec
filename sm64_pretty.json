@@ -95,7 +95,8 @@
           },
           "offset": 32
         }
-      }
+      },
+      "size": 432
     },
     "OSMesgQueue_s": {
       "kind": "struct",
@@ -154,7 +155,8 @@
           },
           "offset": 20
         }
-      }
+      },
+      "size": 24
     },
     "OSPiHandle_s": {
       "kind": "struct",
@@ -234,7 +236,8 @@
           },
           "offset": 20
         }
-      }
+      },
+      "size": 116
     },
     "Controller": {
       "kind": "struct",
@@ -310,7 +313,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 28
     },
     "Struct802D1F94": {
       "kind": "struct",
@@ -611,7 +615,8 @@
           },
           "offset": 116
         }
-      }
+      },
+      "size": 120
     },
     "SPTask": {
       "kind": "struct",
@@ -650,7 +655,8 @@
           },
           "offset": 72
         }
-      }
+      },
+      "size": 80
     },
     "VblankHandler": {
       "kind": "struct",
@@ -674,7 +680,8 @@
           },
           "offset": 4
         }
-      }
+      },
+      "size": 8
     },
     "UnknownStruct5": {
       "kind": "struct",
@@ -734,7 +741,8 @@
           },
           "offset": 16
         }
-      }
+      },
+      "size": 20
     },
     "GraphNode": {
       "kind": "struct",
@@ -797,7 +805,8 @@
           },
           "offset": 16
         }
-      }
+      },
+      "size": 20
     },
     "GraphNodeObject_sub": {
       "kind": "struct",
@@ -855,7 +864,8 @@
           },
           "offset": 16
         }
-      }
+      },
+      "size": 20
     },
     "GraphNodeObject": {
       "kind": "struct",
@@ -967,7 +977,8 @@
           },
           "offset": 92
         }
-      }
+      },
+      "size": 96
     },
     "ObjectNode": {
       "kind": "struct",
@@ -1002,7 +1013,8 @@
           },
           "offset": 100
         }
-      }
+      },
+      "size": 104
     },
     "Object": {
       "kind": "struct",
@@ -1138,7 +1150,8 @@
                 },
                 "offset": 0
               }
-            }
+            },
+            "size": 320
           },
           "offset": 136
         },
@@ -1289,7 +1302,8 @@
           },
           "offset": 604
         }
-      }
+      },
+      "size": 608
     },
     "Surface": {
       "kind": "struct",
@@ -1386,7 +1400,8 @@
           },
           "offset": 44
         }
-      }
+      },
+      "size": 48
     },
     "UnknownStruct6": {
       "kind": "struct",
@@ -1457,7 +1472,8 @@
           },
           "offset": 32
         }
-      }
+      },
+      "size": 36
     },
     "UnknownStruct4": {
       "kind": "struct",
@@ -1572,7 +1588,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 36
     },
     "MarioState": {
       "kind": "struct",
@@ -2049,7 +2066,8 @@
           },
           "offset": 196
         }
-      }
+      },
+      "size": 200
     },
     "StructGeo802D2360": {
       "kind": "struct",
@@ -2071,7 +2089,8 @@
           },
           "offset": 4
         }
-      }
+      },
+      "size": 8
     },
     "MarioAnimDmaRelatedThing": {
       "kind": "struct",
@@ -2090,7 +2109,8 @@
           },
           "offset": 4
         }
-      }
+      },
+      "size": 8
     },
     "MarioAnimation": {
       "kind": "struct",
@@ -2134,7 +2154,8 @@
           },
           "offset": 12
         }
-      }
+      },
+      "size": 16
     },
     "Struct8033B1B0": {
       "kind": "struct",
@@ -2173,7 +2194,8 @@
           },
           "offset": 22
         }
-      }
+      },
+      "size": 28
     },
     "MyVec3f": {
       "kind": "struct",
@@ -2199,7 +2221,8 @@
           },
           "offset": 8
         }
-      }
+      },
+      "size": 12
     },
     "AllocOnlyPool": {
       "kind": "struct",
@@ -2238,7 +2261,8 @@
           },
           "offset": 12
         }
-      }
+      },
+      "size": 16
     },
     "DemoInput": {
       "kind": "struct",
@@ -2271,7 +2295,8 @@
           },
           "offset": 3
         }
-      }
+      },
+      "size": 4
     },
     "GfxPool": {
       "kind": "struct",
@@ -2296,7 +2321,8 @@
           },
           "offset": 51200
         }
-      }
+      },
+      "size": 51280
     },
     "SurfaceNode": {
       "kind": "struct",
@@ -2323,7 +2349,8 @@
           },
           "offset": 4
         }
-      }
+      },
+      "size": 8
     },
     "Struct802D8980": {
       "kind": "struct",
@@ -2392,7 +2419,8 @@
           },
           "offset": 12
         }
-      }
+      },
+      "size": 16
     },
     "UnknownStruct8035FFA8": {
       "kind": "struct",
@@ -2415,7 +2443,8 @@
           },
           "offset": 7
         }
-      }
+      },
+      "size": 8
     },
     "Struct80333F00": {
       "kind": "struct",
@@ -2439,7 +2468,8 @@
           },
           "offset": 160
         }
-      }
+      },
+      "size": 240
     },
     "WarpNode": {
       "kind": "struct",
@@ -2472,7 +2502,8 @@
           },
           "offset": 3
         }
-      }
+      },
+      "size": 4
     },
     "ObjectWarpNode": {
       "kind": "struct",
@@ -2507,7 +2538,8 @@
           },
           "offset": 8
         }
-      }
+      },
+      "size": 12
     },
     "InstantWarp": {
       "kind": "struct",
@@ -2534,7 +2566,8 @@
           },
           "offset": 2
         }
-      }
+      },
+      "size": 8
     },
     "SpawnInfo": {
       "kind": "struct",
@@ -2608,7 +2641,8 @@
           },
           "offset": 28
         }
-      }
+      },
+      "size": 32
     },
     "Struct80280550": {
       "kind": "struct",
@@ -2736,7 +2770,8 @@
           },
           "offset": 104
         }
-      }
+      },
+      "size": 108
     },
     "UnknownArea28": {
       "kind": "struct",
@@ -2776,7 +2811,8 @@
           },
           "offset": 8
         }
-      }
+      },
+      "size": 10
     },
     "Whirlpool": {
       "kind": "struct",
@@ -2796,7 +2832,8 @@
           },
           "offset": 6
         }
-      }
+      },
+      "size": 8
     },
     "Area": {
       "kind": "struct",
@@ -2976,7 +3013,8 @@
           },
           "offset": 56
         }
-      }
+      },
+      "size": 60
     },
     "FnGraphNode": {
       "kind": "struct",
@@ -2997,7 +3035,8 @@
           },
           "offset": 20
         }
-      }
+      },
+      "size": 24
     },
     "GraphNodeScreenArea": {
       "kind": "struct",
@@ -3073,7 +3112,8 @@
           },
           "offset": 32
         }
-      }
+      },
+      "size": 36
     },
     "GraphNode002": {
       "kind": "struct",
@@ -3093,7 +3133,8 @@
           },
           "offset": 20
         }
-      }
+      },
+      "size": 24
     },
     "GraphNodeCamFrustum": {
       "kind": "struct",
@@ -3134,7 +3175,8 @@
           },
           "offset": 34
         }
-      }
+      },
+      "size": 36
     },
     "GraphNodeToggleZBuffer_sub": {
       "kind": "struct",
@@ -3170,7 +3212,8 @@
           },
           "offset": 8
         }
-      }
+      },
+      "size": 12
     },
     "GraphNodeToggleZBuffer": {
       "kind": "struct",
@@ -3224,7 +3267,8 @@
           },
           "offset": 56
         }
-      }
+      },
+      "size": 84
     },
     "GraphNodeStart": {
       "kind": "struct",
@@ -3237,7 +3281,8 @@
           },
           "offset": 0
         }
-      }
+      },
+      "size": 20
     },
     "GraphNodeRenderRange": {
       "kind": "struct",
@@ -3264,7 +3309,8 @@
           },
           "offset": 22
         }
-      }
+      },
+      "size": 24
     },
     "GraphNodeSwitchCase": {
       "kind": "struct",
@@ -3298,7 +3344,8 @@
           },
           "offset": 30
         }
-      }
+      },
+      "size": 32
     },
     "GraphNode114": {
       "kind": "struct",
@@ -3358,7 +3405,8 @@
           },
           "offset": 58
         }
-      }
+      },
+      "size": 60
     },
     "GraphNodeTranslationRotationOptionalDisplayList": {
       "kind": "struct",
@@ -3397,7 +3445,8 @@
           },
           "offset": 30
         }
-      }
+      },
+      "size": 36
     },
     "GraphNode016": {
       "kind": "struct",
@@ -3439,7 +3488,8 @@
           },
           "offset": 30
         }
-      }
+      },
+      "size": 32
     },
     "GraphNode017": {
       "kind": "struct",
@@ -3481,7 +3531,8 @@
           },
           "offset": 30
         }
-      }
+      },
+      "size": 32
     },
     "GraphNodeDisplayListTranslated": {
       "kind": "struct",
@@ -3512,7 +3563,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 32
     },
     "GraphNodeBillboardOptionalDisplayList": {
       "kind": "struct",
@@ -3543,7 +3595,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 32
     },
     "GraphNodeDisplayList": {
       "kind": "struct",
@@ -3566,7 +3619,8 @@
           },
           "offset": 20
         }
-      }
+      },
+      "size": 24
     },
     "GraphNodeScaleOptionalDisplayList": {
       "kind": "struct",
@@ -3596,7 +3650,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 28
     },
     "GraphNodeShadow": {
       "kind": "struct",
@@ -3630,7 +3685,8 @@
           },
           "offset": 23
         }
-      }
+      },
+      "size": 24
     },
     "GraphNode029": {
       "kind": "struct",
@@ -3654,7 +3710,8 @@
           },
           "offset": 20
         }
-      }
+      },
+      "size": 24
     },
     "GraphNode12A": {
       "kind": "struct",
@@ -3674,7 +3731,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 28
     },
     "GraphNodeBackground": {
       "kind": "struct",
@@ -3701,7 +3759,8 @@
           },
           "offset": 28
         }
-      }
+      },
+      "size": 32
     },
     "GraphNode12E": {
       "kind": "struct",
@@ -3740,7 +3799,8 @@
           },
           "offset": 32
         }
-      }
+      },
+      "size": 40
     },
     "GraphNode02F": {
       "kind": "struct",
@@ -3771,7 +3831,8 @@
           },
           "offset": 22
         }
-      }
+      },
+      "size": 24
     },
     "CreditsEntry": {
       "kind": "struct",
@@ -3825,7 +3886,8 @@
           },
           "offset": 12
         }
-      }
+      },
+      "size": 16
     },
     "WallCollisionData": {
       "kind": "struct",
@@ -3894,7 +3956,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 40
     },
     "struct8029E388": {
       "kind": "struct",
@@ -3979,7 +4042,8 @@
           },
           "offset": 32
         }
-      }
+      },
+      "size": 36
     },
     "Struct8033B328": {
       "kind": "struct",
@@ -4199,7 +4263,8 @@
           },
           "offset": 176
         }
-      }
+      },
+      "size": 180
     },
     "Struct8033B470": {
       "kind": "struct",
@@ -4244,7 +4309,8 @@
           },
           "offset": 20
         }
-      }
+      },
+      "size": 24
     },
     "Struct8033B418_sub": {
       "kind": "struct",
@@ -4286,7 +4352,8 @@
           },
           "offset": 30
         }
-      }
+      },
+      "size": 32
     },
     "Struct8033B418": {
       "kind": "struct",
@@ -4335,7 +4402,8 @@
           },
           "offset": 8
         }
-      }
+      },
+      "size": 72
     },
     "Struct8032D000": {
       "kind": "struct",
@@ -4402,7 +4470,8 @@
           },
           "offset": 32
         }
-      }
+      },
+      "size": 36
     },
     "Struct8033B250": {
       "kind": "struct",
@@ -4464,7 +4533,8 @@
           },
           "offset": 20
         }
-      }
+      },
+      "size": 32
     },
     "Struct8033B2B8": {
       "kind": "struct",
@@ -4506,7 +4576,8 @@
           },
           "offset": 14
         }
-      }
+      },
+      "size": 16
     },
     "Struct80287404": {
       "kind": "struct",
@@ -4563,7 +4634,8 @@
           },
           "offset": 58
         }
-      }
+      },
+      "size": 60
     },
     "Struct80287CFC": {
       "kind": "struct",
@@ -4603,7 +4675,8 @@
           },
           "offset": 6
         }
-      }
+      },
+      "size": 8
     },
     "Struct8033B6F0": {
       "kind": "struct",
@@ -4646,7 +4719,8 @@
           },
           "offset": 34
         }
-      }
+      },
+      "size": 36
     },
     "GdPlaneF": {
       "kind": "struct",
@@ -4667,7 +4741,8 @@
           },
           "offset": 12
         }
-      }
+      },
+      "size": 24
     },
     "GdTriangleF": {
       "kind": "struct",
@@ -4696,7 +4771,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 36
     },
     "GdFile": {
       "kind": "struct",
@@ -4751,7 +4827,8 @@
           },
           "offset": 80
         }
-      }
+      },
+      "size": 84
     },
     "ObjHeader": {
       "kind": "struct",
@@ -4825,7 +4902,8 @@
           },
           "offset": 18
         }
-      }
+      },
+      "size": 20
     },
     "Links": {
       "kind": "struct",
@@ -4863,7 +4941,8 @@
           },
           "offset": 8
         }
-      }
+      },
+      "size": 12
     },
     "ObjGroup": {
       "kind": "struct",
@@ -4966,7 +5045,8 @@
           },
           "offset": 116
         }
-      }
+      },
+      "size": 120
     },
     "ObjBone": {
       "kind": "struct",
@@ -5134,7 +5214,8 @@
           },
           "offset": 272
         }
-      }
+      },
+      "size": 292
     },
     "ObjJoint": {
       "kind": "struct",
@@ -5409,7 +5490,8 @@
           },
           "offset": 508
         }
-      }
+      },
+      "size": 556
     },
     "ObjParticle": {
       "kind": "struct",
@@ -5693,7 +5775,8 @@
           },
           "offset": 188
         }
-      }
+      },
+      "size": 192
     },
     "ObjShape": {
       "kind": "struct",
@@ -5854,7 +5937,8 @@
           },
           "offset": 92
         }
-      }
+      },
+      "size": 156
     },
     "ObjNet": {
       "kind": "struct",
@@ -6048,7 +6132,8 @@
           },
           "offset": 496
         }
-      }
+      },
+      "size": 544
     },
     "ObjPlane": {
       "kind": "struct",
@@ -6118,7 +6203,8 @@
           },
           "offset": 64
         }
-      }
+      },
+      "size": 68
     },
     "ObjVertex": {
       "kind": "struct",
@@ -6194,7 +6280,8 @@
           },
           "offset": 68
         }
-      }
+      },
+      "size": 72
     },
     "ObjFace": {
       "kind": "struct",
@@ -6274,7 +6361,8 @@
           },
           "offset": 72
         }
-      }
+      },
+      "size": 76
     },
     "ObjCamera": {
       "kind": "struct",
@@ -6504,7 +6592,8 @@
           },
           "offset": 396
         }
-      }
+      },
+      "size": 400
     },
     "ObjMaterial": {
       "kind": "struct",
@@ -6590,7 +6679,8 @@
           },
           "offset": 92
         }
-      }
+      },
+      "size": 96
     },
     "ObjWeight": {
       "kind": "struct",
@@ -6658,7 +6748,8 @@
           },
           "offset": 60
         }
-      }
+      },
+      "size": 64
     },
     "ObjGadget": {
       "kind": "struct",
@@ -6800,7 +6891,8 @@
           },
           "offset": 92
         }
-      }
+      },
+      "size": 96
     },
     "ObjView": {
       "kind": "struct",
@@ -7064,7 +7156,8 @@
           },
           "offset": 156
         }
-      }
+      },
+      "size": 160
     },
     "ObjLabel": {
       "kind": "struct",
@@ -7155,7 +7248,8 @@
           },
           "offset": 48
         }
-      }
+      },
+      "size": 52
     },
     "ObjAnimator": {
       "kind": "struct",
@@ -7292,7 +7386,8 @@
           },
           "offset": 84
         }
-      }
+      },
+      "size": 88
     },
     "SubAnim1": {
       "kind": "struct",
@@ -7319,7 +7414,8 @@
           },
           "offset": 28
         }
-      }
+      },
+      "size": 32
     },
     "SubAnim2": {
       "kind": "struct",
@@ -7349,7 +7445,8 @@
           },
           "offset": 8
         }
-      }
+      },
+      "size": 12
     },
     "SubAnim3": {
       "kind": "struct",
@@ -7378,7 +7475,8 @@
           },
           "offset": 8
         }
-      }
+      },
+      "size": 12
     },
     "ObjValPtrs": {
       "kind": "struct",
@@ -7423,7 +7521,8 @@
           },
           "offset": 32
         }
-      }
+      },
+      "size": 36
     },
     "ObjLight": {
       "kind": "struct",
@@ -7606,7 +7705,8 @@
           },
           "offset": 156
         }
-      }
+      },
+      "size": 160
     },
     "ObjZone": {
       "kind": "struct",
@@ -7660,7 +7760,8 @@
           },
           "offset": 52
         }
-      }
+      },
+      "size": 56
     },
     "ObjUnk200000": {
       "kind": "struct",
@@ -7706,7 +7807,8 @@
           },
           "offset": 52
         }
-      }
+      },
+      "size": 56
     },
     "DebugCounters": {
       "kind": "struct",
@@ -7725,7 +7827,8 @@
           },
           "offset": 4
         }
-      }
+      },
+      "size": 8
     },
     "Struct802761D0": {
       "kind": "struct",
@@ -7755,7 +7858,8 @@
           },
           "offset": 4
         }
-      }
+      },
+      "size": 24
     },
     "Struct802763D4": {
       "kind": "struct",
@@ -7785,7 +7889,8 @@
           },
           "offset": 28
         }
-      }
+      },
+      "size": 32
     },
     "Struct802763D4_Unknown": {
       "kind": "struct",
@@ -7808,7 +7913,8 @@
           },
           "offset": 28
         }
-      }
+      },
+      "size": 32
     },
     "Struct802769E0": {
       "kind": "struct",
@@ -7849,7 +7955,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 28
     },
     "Struct8033A040": {
       "kind": "struct",
@@ -7941,7 +8048,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 40
     },
     "Struct80277150": {
       "kind": "struct",
@@ -7986,7 +8094,8 @@
           },
           "offset": 30
         }
-      }
+      },
+      "size": 32
     },
     "Struct80277294": {
       "kind": "struct",
@@ -8017,7 +8126,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 28
     },
     "Struct80277294_2": {
       "kind": "struct",
@@ -8062,7 +8172,8 @@
           },
           "offset": 28
         }
-      }
+      },
+      "size": 32
     },
     "Struct802773A4": {
       "kind": "struct",
@@ -8093,7 +8204,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 28
     },
     "Struct802773A4_2": {
       "kind": "struct",
@@ -8125,7 +8237,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 32
     },
     "Struct802775CC": {
       "kind": "struct",
@@ -8156,7 +8269,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 28
     },
     "Struct80277824": {
       "kind": "struct",
@@ -8187,7 +8301,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 28
     },
     "Struct80277824_2": {
       "kind": "struct",
@@ -8218,7 +8333,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 28
     },
     "Struct8027795C": {
       "kind": "struct",
@@ -8268,7 +8384,8 @@
           },
           "offset": 32
         }
-      }
+      },
+      "size": 40
     },
     "Struct80277D6C": {
       "kind": "struct",
@@ -8299,7 +8416,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 28
     },
     "ProfilerFrameData": {
       "kind": "struct",
@@ -8366,7 +8484,8 @@
           },
           "offset": 136
         }
-      }
+      },
+      "size": 200
     },
     "Struct803306D0": {
       "kind": "struct",
@@ -8399,7 +8518,8 @@
           },
           "offset": 6
         }
-      }
+      },
+      "size": 8
     },
     "Struct802E19DC": {
       "kind": "struct",
@@ -8446,7 +8566,8 @@
           },
           "offset": 4
         }
-      }
+      },
+      "size": 8
     },
     "PowerMeterHUD": {
       "kind": "struct",
@@ -8486,7 +8607,8 @@
           },
           "offset": 12
         }
-      }
+      },
+      "size": 16
     },
     "UnknownStruct803314F0": {
       "kind": "struct",
@@ -8512,7 +8634,8 @@
           },
           "offset": 6
         }
-      }
+      },
+      "size": 8
     },
     "CameraHUD": {
       "kind": "struct",
@@ -8524,7 +8647,8 @@
           },
           "offset": 0
         }
-      }
+      },
+      "size": 2
     },
     "Struct802E2F58": {
       "kind": "struct",
@@ -8562,7 +8686,8 @@
           },
           "offset": 16
         }
-      }
+      },
+      "size": 24
     },
     "BullyCollisionData": {
       "kind": "struct",
@@ -8609,7 +8734,8 @@
           },
           "offset": 20
         }
-      }
+      },
+      "size": 24
     },
     "InteractionHandler": {
       "kind": "struct",
@@ -8666,7 +8792,8 @@
           },
           "offset": 4
         }
-      }
+      },
+      "size": 8
     },
     "GraphNodeMore": {
       "kind": "struct",
@@ -8696,7 +8823,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 28
     },
     "LevelCommand": {
       "kind": "struct",
@@ -8715,7 +8843,8 @@
           },
           "offset": 1
         }
-      }
+      },
+      "size": 2
     },
     "LandingAction": {
       "kind": "struct",
@@ -8769,7 +8898,8 @@
           },
           "offset": 20
         }
-      }
+      },
+      "size": 24
     },
     "MainPoolState": {
       "kind": "struct",
@@ -8813,7 +8943,8 @@
           },
           "offset": 12
         }
-      }
+      },
+      "size": 16
     },
     "MainPoolBlock": {
       "kind": "struct",
@@ -8840,7 +8971,8 @@
           },
           "offset": 4
         }
-      }
+      },
+      "size": 8
     },
     "MemoryPool": {
       "kind": "struct",
@@ -8874,7 +9006,8 @@
           },
           "offset": 8
         }
-      }
+      },
+      "size": 12
     },
     "MemoryBlock": {
       "kind": "struct",
@@ -8897,7 +9030,8 @@
           },
           "offset": 4
         }
-      }
+      },
+      "size": 8
     },
     "Struct802D0DD4": {
       "kind": "struct",
@@ -9001,7 +9135,8 @@
           },
           "offset": 32
         }
-      }
+      },
+      "size": 36
     },
     "Struct802CF9A4": {
       "kind": "struct",
@@ -9104,7 +9239,8 @@
           },
           "offset": 26
         }
-      }
+      },
+      "size": 28
     },
     "Struct802D00D0": {
       "kind": "struct",
@@ -9137,7 +9273,8 @@
           },
           "offset": 4
         }
-      }
+      },
+      "size": 8
     },
     "Struct802D104C": {
       "kind": "struct",
@@ -9178,7 +9315,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 28
     },
     "Struct802D1B70": {
       "kind": "struct",
@@ -9219,7 +9357,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 28
     },
     "Struct802D2108": {
       "kind": "struct",
@@ -9242,7 +9381,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 28
     },
     "struct8029D924": {
       "kind": "struct",
@@ -9279,7 +9419,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 28
     },
     "struct8029D924_2": {
       "kind": "struct",
@@ -9298,7 +9439,8 @@
           },
           "offset": 4
         }
-      }
+      },
+      "size": 8
     },
     "ParticleType": {
       "kind": "struct",
@@ -9348,7 +9490,8 @@
           },
           "offset": 12
         }
-      }
+      },
+      "size": 16
     },
     "TextLabel": {
       "kind": "struct",
@@ -9385,7 +9528,8 @@
           },
           "offset": 10
         }
-      }
+      },
+      "size": 12
     },
     "Struct802D1EE0": {
       "kind": "struct",
@@ -9415,7 +9559,8 @@
           },
           "offset": 7
         }
-      }
+      },
+      "size": 8
     },
     "Struct802D4E04": {
       "kind": "struct",
@@ -9456,7 +9601,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 28
     },
     "Struct8032CF10": {
       "kind": "struct",
@@ -9472,7 +9618,8 @@
           },
           "offset": 0
         }
-      }
+      },
+      "size": 32
     },
     "SaveBlockSignature": {
       "kind": "struct",
@@ -9491,7 +9638,8 @@
           },
           "offset": 2
         }
-      }
+      },
+      "size": 4
     },
     "SaveFile": {
       "kind": "struct",
@@ -9555,7 +9703,8 @@
           },
           "offset": 52
         }
-      }
+      },
+      "size": 56
     },
     "MainMenuSaveData": {
       "kind": "struct",
@@ -9597,7 +9746,8 @@
           },
           "offset": 28
         }
-      }
+      },
+      "size": 32
     },
     "SaveBuffer": {
       "kind": "struct",
@@ -9630,7 +9780,8 @@
           },
           "offset": 448
         }
-      }
+      },
+      "size": 512
     },
     "Shadow": {
       "kind": "struct",
@@ -9719,7 +9870,8 @@
           },
           "offset": 44
         }
-      }
+      },
+      "size": 48
     },
     "Struct8035FF50": {
       "kind": "struct",
@@ -9759,7 +9911,8 @@
           },
           "offset": 12
         }
-      }
+      },
+      "size": 16
     },
     "Struct8032FFC8": {
       "kind": "struct",
@@ -9796,7 +9949,8 @@
           },
           "offset": 3
         }
-      }
+      },
+      "size": 4
     },
     "Hack802CEF4C": {
       "kind": "struct",
@@ -9812,7 +9966,8 @@
           },
           "offset": 0
         }
-      }
+      },
+      "size": 4
     },
     "LinkedList": {
       "kind": "struct",
@@ -9839,7 +9994,8 @@
           },
           "offset": 4
         }
-      }
+      },
+      "size": 8
     },
     "SoundState": {
       "kind": "struct",
@@ -9872,7 +10028,8 @@
           },
           "offset": 4
         }
-      }
+      },
+      "size": 8
     },
     "GMemBlock": {
       "kind": "struct",
@@ -9898,7 +10055,8 @@
                 },
                 "offset": 0
               }
-            }
+            },
+            "size": 4
           },
           "offset": 0
         },
@@ -9945,7 +10103,8 @@
           },
           "offset": 16
         }
-      }
+      },
+      "size": 20
     },
     "DummyStruct": {
       "kind": "struct",
@@ -9957,7 +10116,8 @@
           },
           "offset": 0
         }
-      }
+      },
+      "size": 4
     },
     "GdMem801B9920": {
       "kind": "struct",
@@ -10284,7 +10444,8 @@
           },
           "offset": 244
         }
-      }
+      },
+      "size": 248
     },
     "GdMem801B9A18": {
       "kind": "struct",
@@ -10321,7 +10482,8 @@
           },
           "offset": 60
         }
-      }
+      },
+      "size": 248
     },
     "BetaVtx": {
       "kind": "struct",
@@ -10351,7 +10513,8 @@
           },
           "offset": 72
         }
-      }
+      },
+      "size": 76
     },
     "Unk801B9E68": {
       "kind": "struct",
@@ -10374,7 +10537,8 @@
           },
           "offset": 4
         }
-      }
+      },
+      "size": 24
     },
     "Unk8017F3CC": {
       "kind": "struct",
@@ -10398,7 +10562,8 @@
           },
           "offset": 32
         }
-      }
+      },
+      "size": 44
     },
     "AnimDataType9": {
       "kind": "struct",
@@ -10419,7 +10584,8 @@
           },
           "offset": 64
         }
-      }
+      },
+      "size": 76
     },
     "ObjUnkFromNet1A8": {
       "kind": "struct",
@@ -10475,7 +10641,8 @@
           },
           "offset": 36
         }
-      }
+      },
+      "size": 40
     },
     "ObjUnkSub": {
       "kind": "struct",
@@ -10512,7 +10679,8 @@
           },
           "offset": 8
         }
-      }
+      },
+      "size": 12
     },
     "Connection": {
       "kind": "struct",
@@ -10558,7 +10726,8 @@
           },
           "offset": 40
         }
-      }
+      },
+      "size": 44
     }
   },
   "union": {
@@ -10586,7 +10755,8 @@
           },
           "offset": 0
         }
-      }
+      },
+      "size": 8
     }
   },
   "typedef": {
@@ -10656,7 +10826,8 @@
           },
           "offset": 0
         }
-      }
+      },
+      "size": 64
     },
     "OSIntMask": {
       "kind": "prim",
@@ -10691,11 +10862,13 @@
                 },
                 "offset": 4
               }
-            }
+            },
+            "size": 8
           },
           "offset": 0
         }
-      }
+      },
+      "size": 8
     },
     "__OSThreadContext": {
       "kind": "struct",
@@ -11087,7 +11260,8 @@
           },
           "offset": 392
         }
-      }
+      },
+      "size": 400
     },
     "__OSThreadprofile_s": {
       "kind": "struct",
@@ -11113,7 +11287,8 @@
           },
           "offset": 8
         }
-      }
+      },
+      "size": 16
     },
     "OSThread": {
       "kind": "sym",
@@ -11164,7 +11339,8 @@
           },
           "offset": 3
         }
-      }
+      },
+      "size": 4
     },
     "OSContPad": {
       "kind": "struct",
@@ -11197,7 +11373,8 @@
           },
           "offset": 4
         }
-      }
+      },
+      "size": 6
     },
     "OSPageMask": {
       "kind": "prim",
@@ -11342,7 +11519,8 @@
           },
           "offset": 60
         }
-      }
+      },
+      "size": 64
     },
     "OSTask": {
       "kind": "union",
@@ -11362,7 +11540,8 @@
           },
           "offset": 0
         }
-      }
+      },
+      "size": 64
     },
     "OSYieldResult": {
       "kind": "prim",
@@ -11434,7 +11613,8 @@
           },
           "offset": 32
         }
-      }
+      },
+      "size": 36
     },
     "OSViFieldRegs": {
       "kind": "struct",
@@ -11474,7 +11654,8 @@
           },
           "offset": 16
         }
-      }
+      },
+      "size": 20
     },
     "OSViMode": {
       "kind": "struct",
@@ -11506,7 +11687,8 @@
           },
           "offset": 40
         }
-      }
+      },
+      "size": 80
     },
     "__OSBlockInfo": {
       "kind": "struct",
@@ -11563,7 +11745,8 @@
           },
           "offset": 20
         }
-      }
+      },
+      "size": 36
     },
     "__OSTranxInfo": {
       "kind": "struct",
@@ -11629,7 +11812,8 @@
           },
           "offset": 24
         }
-      }
+      },
+      "size": 96
     },
     "OSPiHandle": {
       "kind": "sym",
@@ -11653,7 +11837,8 @@
           },
           "offset": 4
         }
-      }
+      },
+      "size": 8
     },
     "OSIoMesgHdr": {
       "kind": "struct",
@@ -11690,7 +11875,8 @@
           },
           "offset": 4
         }
-      }
+      },
+      "size": 8
     },
     "OSIoMesg": {
       "kind": "struct",
@@ -11738,7 +11924,8 @@
           },
           "offset": 20
         }
-      }
+      },
+      "size": 24
     },
     "Vtx_t": {
       "kind": "struct",
@@ -11783,7 +11970,8 @@
           },
           "offset": 12
         }
-      }
+      },
+      "size": 16
     },
     "Vtx_tn": {
       "kind": "struct",
@@ -11835,7 +12023,8 @@
           },
           "offset": 15
         }
-      }
+      },
+      "size": 16
     },
     "Vtx": {
       "kind": "union",
@@ -11863,7 +12052,8 @@
           },
           "offset": 0
         }
-      }
+      },
+      "size": 16
     },
     "Vp_t": {
       "kind": "struct",
@@ -11890,7 +12080,8 @@
           },
           "offset": 8
         }
-      }
+      },
+      "size": 16
     },
     "Vp": {
       "kind": "union",
@@ -11910,7 +12101,8 @@
           },
           "offset": 0
         }
-      }
+      },
+      "size": 16
     },
     "Gwords": {
       "kind": "struct",
@@ -11929,7 +12121,8 @@
           },
           "offset": 4
         }
-      }
+      },
+      "size": 8
     },
     "Gfx": {
       "kind": "union",
@@ -11949,7 +12142,8 @@
           },
           "offset": 0
         }
-      }
+      },
+      "size": 8
     },
     "Vec2f": {
       "kind": "array",
@@ -12121,7 +12315,8 @@
           },
           "offset": 8
         }
-      }
+      },
+      "size": 12
     },
     "SomeFunc": {
       "kind": "ptr",
@@ -12180,7 +12375,8 @@
           },
           "offset": 0
         }
-      }
+      },
+      "size": 4
     }
   },
   "global": {
@@ -78085,7 +78281,8 @@
             },
             "offset": 4
           }
-        }
+        },
+        "size": 8
       }
     },
     "D_801B9CE8": {

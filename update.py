@@ -185,6 +185,7 @@ def get_type(type_):
       'kind': symtype,
       'def': get_struct_def(type_.decls, union=type(type_) is c_ast.Union)
     }
+    result['size'] = get_struct_size(result['def'])
     if name is not None:
       data[symtype][name] = result
       result = {'kind': 'sym', 'symtype': symtype, 'name': name}

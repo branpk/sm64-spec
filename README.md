@@ -47,8 +47,8 @@ A type is represented by a map. The `kind` field dictates what sort of type it
 is. The possibilities are:
 
 * `{"kind": "prim",   "name": <primitive name>}`
-* `{"kind": "struct", "def": <struct definition>}`
-* `{"kind": "union",  "def": <struct definition>}`
+* `{"kind": "struct", "def": <struct definition>, "size": <struct size>}`
+* `{"kind": "union",  "def": <struct definition>, "size": <struct size>}`
 * `{"kind": "ptr",    "base": <base type>}`
 * `{"kind": "array",  "len": <array length or -1>, "base": <base type>}`
 * `{"kind": "func",   "ret": <return type>, "params": <param list>, "variadic": <bool>}`
