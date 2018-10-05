@@ -72,10 +72,18 @@ c_primitives = {
 }
 
 def get_struct_size(fields):
-  return max(map(lambda f: get_type_size_and_align(f['type'])[0] + f['offset'], fields.values()))
+  size = max(map(lambda f: get_type_size_and_align(f['type'])[0] + f['offset'], fields.values()))
+  align = get_struct_align(fields)
+  if size % align != 0:
+    size += align - (size % align)
+  return size
 
 def get_union_size(fields):
-  return max(map(lambda f: get_type_size_and_align(f['type'])[0], fields.values()))
+  size = max(map(lambda f: get_type_size_and_align(f['type'])[0], fields.values()))
+  align = get_struct_align(fields)
+  if size % align != 0:
+    size += align - (size % align)
+  return size
 
 def get_struct_align(fields):
   return max(map(lambda f: get_type_size_and_align(f['type'])[1], fields.values()))
