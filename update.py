@@ -53,7 +53,7 @@ primitive_types = {
   'u64': 8,
   'f32': 4,
   'f64': 8,
-  'void': 4,
+  'void': None,
 }
 
 c_primitives = {
