@@ -71,6 +71,70 @@ c_primitives = {
   'double': 'f64',
 }
 
+
+bad_merges = []
+
+def merge_params(p1, p2):
+  return (p1[0] if p1[0] != '' else p2[0], merge_values('type', p1[1], p2[1]))
+
+def merge_values(cxt, v1, v2):
+  if v1 == v2:
+    return v1
+
+  elif cxt == 'global':
+    return {'type': merge_values('type', v1['type'], v2['type'])}
+
+  elif cxt == 'type':
+    if v1['kind'] == v2['kind']:
+
+      if v1['kind'] == 'array':
+        if v1['len'] == -1 and v2['len'] == -1:
+          return {'kind': 'array', 'len': -1, 'base': merge_values('type', v1['base'], v2['base'])}
+
+        elif v1['len'] == -1 or v2['len'] == -1 or v1['len'] == v2['len']:
+          length = v1['len'] if v1['len'] != -1 else v2['len']
+          return {'kind': 'array', 'len': length, 'base': merge_values('type', v1['base'], v2['base'])}
+
+      elif v1['kind'] == 'func':
+        if v1['variadic'] == v2['variadic'] and len(v1['params']) == len(v2['params']):
+          return {
+            'kind': 'func',
+            'ret': merge_values('type', v1['ret'], v2['ret']),
+            'params': [merge_params(v1['params'][i], v2['params'][i]) for i in range(len(v2['params']))],
+            'variadic': v1['variadic']
+          }
+        else:
+          if v2['variadic']: v1, v2 = v2, v1
+          if v1['variadic'] and len(v1['params']) == 0:
+            return {
+              'kind': 'func',
+              'ret': merge_values('type', v1['ret'], v2['ret']),
+              'params': v2['params'],
+              'variadic': v2['variadic']
+            }
+  
+  # Sometimes the decomp is imperfect :/
+  if (cxt, v1, v2) not in bad_merges and (cxt, v2, v1) not in bad_merges:
+    print('Bad merge (' + cxt + '):')
+    print('  ' + str(v1))
+    print('  ' + str(v2))
+    bad_merges.append((cxt, v1, v2))
+  return v1
+
+  # raise NotImplementedError('merge_values: ' + cxt + '\n  ' + str(v1) + '\n  ' + str(v2))
+
+def merge_data(section, name, value):
+  if name in data[section]:
+    try:
+      value = merge_values(section, value, data[section][name])
+    except:
+      print('While merging: ' + section + ' ' + name)
+      print('  ' + str(value))
+      print('  ' + str(data[section][name]))
+      raise
+  data[section][name] = value
+
+
 def get_struct_size(fields):
   size = max(map(lambda f: get_type_size_and_align(f['type'])[0] + f['offset'], fields.values()))
   align = get_struct_align(fields)
@@ -187,7 +251,7 @@ def get_type(type_):
     }
     result['size'] = get_struct_size(result['def'])
     if name is not None:
-      data[symtype][name] = result
+      merge_data(symtype, name, result)
       result = {'kind': 'sym', 'symtype': symtype, 'name': name}
     return result
 
@@ -232,14 +296,14 @@ def process_ext(ext):
       return
     type_ = get_type_from_decl(ext.type)
     assert name is not None
-    data['typedef'][name] = type_
+    merge_data('typedef', name, type_)
     return
 
   elif type(ext) is c_ast.Decl:
     name = ext.name
     type_ = get_type_from_decl(ext.type)
     if name is not None:
-      data['global'][name] = {'type': type_}
+      merge_data('global', name, {'type': type_})
     return
 
   elif type(ext) is c_ast.FuncDef:

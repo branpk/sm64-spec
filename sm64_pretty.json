@@ -14205,7 +14205,7 @@
         },
         "params": [
           [
-            "",
+            "m",
             {
               "kind": "ptr",
               "base": {
@@ -14216,21 +14216,21 @@
             }
           ],
           [
-            "",
+            "x",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "y",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "z",
             {
               "kind": "prim",
               "name": "f32"
@@ -20680,7 +20680,7 @@
         },
         "params": [
           [
-            "",
+            "arg",
             {
               "kind": "ptr",
               "base": {
@@ -20838,7 +20838,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "prim",
               "name": "s32"
@@ -20857,7 +20857,7 @@
         },
         "params": [
           [
-            "",
+            "viewport",
             {
               "kind": "ptr",
               "base": {
@@ -20868,7 +20868,7 @@
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "prim",
               "name": "s32"
@@ -20976,7 +20976,7 @@
     "gObjectPool": {
       "type": {
         "kind": "array",
-        "len": -1,
+        "len": 240,
         "base": {
           "kind": "sym",
           "symtype": "struct",
@@ -21032,7 +21032,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -21043,7 +21043,7 @@
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "prim",
               "name": "u8"
@@ -21062,14 +21062,14 @@
         },
         "params": [
           [
-            "",
+            "sp28",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "sp2C",
             {
               "kind": "prim",
               "name": "s32"
@@ -21088,7 +21088,7 @@
         },
         "params": [
           [
-            "",
+            "unusedArg",
             {
               "kind": "prim",
               "name": "s32"
@@ -21129,7 +21129,7 @@
         },
         "params": [
           [
-            "",
+            "sp108",
             {
               "kind": "prim",
               "name": "s32"
@@ -22221,7 +22221,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "prim",
               "name": "s16"
@@ -24007,21 +24007,21 @@
         },
         "params": [
           [
-            "",
+            "x",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "y",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "str",
             {
               "kind": "ptr",
               "base": {
@@ -24031,7 +24031,7 @@
             }
           ],
           [
-            "",
+            "n",
             {
               "kind": "prim",
               "name": "s32"
@@ -24050,21 +24050,21 @@
         },
         "params": [
           [
-            "",
+            "x",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "y",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "str",
             {
               "kind": "ptr",
               "base": {
@@ -24086,21 +24086,21 @@
         },
         "params": [
           [
-            "",
+            "x",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "y",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "str",
             {
               "kind": "ptr",
               "base": {
@@ -24389,7 +24389,7 @@
           "name": "void"
         },
         "params": [],
-        "variadic": true
+        "variadic": false
       }
     },
     "render_hud_timer": {
@@ -24834,7 +24834,7 @@
     "gPlayerSpawnInfos": {
       "type": {
         "kind": "array",
-        "len": -1,
+        "len": 1,
         "base": {
           "kind": "sym",
           "symtype": "struct",
@@ -24891,7 +24891,7 @@
     "gAreaData": {
       "type": {
         "kind": "array",
-        "len": -1,
+        "len": 8,
         "base": {
           "kind": "sym",
           "symtype": "struct",
@@ -25376,7 +25376,7 @@
         },
         "params": [
           [
-            "",
+            "graphNode",
             {
               "kind": "ptr",
               "base": {
@@ -25387,7 +25387,7 @@
             }
           ],
           [
-            "",
+            "type",
             {
               "kind": "prim",
               "name": "s32"
@@ -25410,7 +25410,7 @@
         },
         "params": [
           [
-            "",
+            "pool",
             {
               "kind": "ptr",
               "base": {
@@ -25421,7 +25421,7 @@
             }
           ],
           [
-            "",
+            "graphNode",
             {
               "kind": "ptr",
               "base": {
@@ -25432,7 +25432,7 @@
             }
           ],
           [
-            "",
+            "sp20",
             {
               "kind": "prim",
               "name": "s16"
@@ -25483,7 +25483,7 @@
         },
         "params": [
           [
-            "",
+            "pool",
             {
               "kind": "ptr",
               "base": {
@@ -25494,7 +25494,7 @@
             }
           ],
           [
-            "",
+            "graphNode",
             {
               "kind": "ptr",
               "base": {
@@ -25505,7 +25505,7 @@
             }
           ],
           [
-            "",
+            "sp20",
             {
               "kind": "prim",
               "name": "f32"
@@ -25651,7 +25651,7 @@
             }
           ],
           [
-            "",
+            "graphNode",
             {
               "kind": "ptr",
               "base": {
@@ -26754,7 +26754,7 @@
         },
         "params": [
           [
-            "",
+            "prevNode",
             {
               "kind": "ptr",
               "base": {
@@ -26765,7 +26765,7 @@
             }
           ],
           [
-            "",
+            "node",
             {
               "kind": "ptr",
               "base": {
@@ -26792,7 +26792,7 @@
         },
         "params": [
           [
-            "",
+            "graphNode",
             {
               "kind": "ptr",
               "base": {
@@ -26842,7 +26842,7 @@
         },
         "params": [
           [
-            "",
+            "graphNode",
             {
               "kind": "ptr",
               "base": {
@@ -26853,7 +26853,7 @@
             }
           ],
           [
-            "",
+            "sp34",
             {
               "kind": "prim",
               "name": "s32"
@@ -27014,7 +27014,7 @@
         },
         "params": [
           [
-            "",
+            "graphNode",
             {
               "kind": "ptr",
               "base": {
@@ -27025,7 +27025,7 @@
             }
           ],
           [
-            "",
+            "sp34",
             {
               "kind": "ptr",
               "base": {
@@ -27216,7 +27216,7 @@
         },
         "params": [
           [
-            "",
+            "dst",
             {
               "kind": "ptr",
               "base": {
@@ -27321,7 +27321,7 @@
         },
         "params": [
           [
-            "",
+            "graphNode",
             {
               "kind": "ptr",
               "base": {
@@ -27387,8 +27387,49 @@
           "kind": "prim",
           "name": "void"
         },
-        "params": [],
-        "variadic": true
+        "params": [
+          [
+            "a",
+            {
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "struct",
+                "name": "GraphNodeScreenArea"
+              }
+            }
+          ],
+          [
+            "b",
+            {
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vp"
+              }
+            }
+          ],
+          [
+            "c",
+            {
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vp"
+              }
+            }
+          ],
+          [
+            "d",
+            {
+              "kind": "prim",
+              "name": "s32"
+            }
+          ]
+        ],
+        "variadic": false
       }
     },
     "gCurrCreditsEntry": {
@@ -27404,7 +27445,7 @@
     "gMarioStates": {
       "type": {
         "kind": "array",
-        "len": -1,
+        "len": 1,
         "base": {
           "kind": "sym",
           "symtype": "struct",
@@ -27625,7 +27666,7 @@
             }
           ],
           [
-            "",
+            "arg1",
             {
               "kind": "prim",
               "name": "s32"
@@ -27644,7 +27685,7 @@
         },
         "params": [
           [
-            "",
+            "arg0",
             {
               "kind": "prim",
               "name": "s16"
@@ -27670,7 +27711,7 @@
         },
         "params": [
           [
-            "",
+            "arg0",
             {
               "kind": "prim",
               "name": "s16"
@@ -27696,14 +27737,14 @@
         },
         "params": [
           [
-            "",
+            "arg0",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "arg1",
             {
               "kind": "prim",
               "name": "s32"
@@ -28549,7 +28590,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -28560,7 +28601,7 @@
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -28583,7 +28624,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -28594,7 +28635,7 @@
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -28605,7 +28646,7 @@
             }
           ],
           [
-            "",
+            "a2",
             {
               "kind": "ptr",
               "base": {
@@ -28628,7 +28669,7 @@
         },
         "params": [
           [
-            "",
+            "sp18",
             {
               "kind": "ptr",
               "base": {
@@ -28639,7 +28680,7 @@
             }
           ],
           [
-            "",
+            "sp1C",
             {
               "kind": "ptr",
               "base": {
@@ -28661,7 +28702,7 @@
         },
         "params": [
           [
-            "",
+            "sp28",
             {
               "kind": "ptr",
               "base": {
@@ -28672,7 +28713,7 @@
             }
           ],
           [
-            "",
+            "sp2C",
             {
               "kind": "ptr",
               "base": {
@@ -28728,7 +28769,7 @@
         },
         "params": [
           [
-            "",
+            "sp30",
             {
               "kind": "ptr",
               "base": {
@@ -28739,7 +28780,7 @@
             }
           ],
           [
-            "",
+            "sp34",
             {
               "kind": "ptr",
               "base": {
@@ -28762,7 +28803,7 @@
         },
         "params": [
           [
-            "",
+            "sp40",
             {
               "kind": "ptr",
               "base": {
@@ -28773,7 +28814,7 @@
             }
           ],
           [
-            "",
+            "sp44",
             {
               "kind": "ptr",
               "base": {
@@ -28784,14 +28825,14 @@
             }
           ],
           [
-            "",
+            "sp4A",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "sp4E",
             {
               "kind": "prim",
               "name": "s16"
@@ -28814,7 +28855,7 @@
         },
         "params": [
           [
-            "",
+            "sp20",
             {
               "kind": "ptr",
               "base": {
@@ -28825,21 +28866,21 @@
             }
           ],
           [
-            "",
+            "sp26",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "sp28",
             {
               "kind": "prim",
               "name": "u32"
             }
           ],
           [
-            "",
+            "sp2C",
             {
               "kind": "ptr",
               "base": {
@@ -28849,42 +28890,42 @@
             }
           ],
           [
-            "",
+            "sp32",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "sp36",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "sp3A",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "sp3E",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "sp42",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "sp46",
             {
               "kind": "prim",
               "name": "s16"
@@ -28993,7 +29034,7 @@
         },
         "params": [
           [
-            "",
+            "sp20",
             {
               "kind": "ptr",
               "base": {
@@ -29004,7 +29045,7 @@
             }
           ],
           [
-            "",
+            "sp24",
             {
               "kind": "ptr",
               "base": {
@@ -29031,7 +29072,7 @@
         },
         "params": [
           [
-            "",
+            "sp20",
             {
               "kind": "ptr",
               "base": {
@@ -29042,21 +29083,21 @@
             }
           ],
           [
-            "",
+            "sp24",
             {
               "kind": "prim",
               "name": "u32"
             }
           ],
           [
-            "",
+            "sp28",
             {
               "kind": "prim",
               "name": "u32"
             }
           ],
           [
-            "",
+            "sp2C",
             {
               "kind": "ptr",
               "base": {
@@ -32793,7 +32834,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "prim",
               "name": "s16"
@@ -32812,7 +32853,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "prim",
               "name": "s16"
@@ -32831,28 +32872,28 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "c",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "d",
             {
               "kind": "prim",
               "name": "f32"
@@ -32901,7 +32942,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "ptr",
               "base": {
@@ -32912,14 +32953,14 @@
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "c",
             {
               "kind": "prim",
               "name": "s16"
@@ -32938,7 +32979,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "ptr",
               "base": {
@@ -32961,7 +33002,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "ptr",
               "base": {
@@ -32995,7 +33036,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "ptr",
               "base": {
@@ -33006,7 +33047,7 @@
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "ptr",
               "base": {
@@ -33061,8 +33102,16 @@
           "kind": "prim",
           "name": "s32"
         },
-        "params": [],
-        "variadic": true
+        "params": [
+          [
+            "a",
+            {
+              "kind": "prim",
+              "name": "s32"
+            }
+          ]
+        ],
+        "variadic": false
       }
     },
     "func_802882A0": {
@@ -33074,7 +33123,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "prim",
               "name": "u8"
@@ -33093,7 +33142,7 @@
         },
         "params": [
           [
-            "",
+            "pos",
             {
               "kind": "ptr",
               "base": {
@@ -33104,14 +33153,14 @@
             }
           ],
           [
-            "",
+            "offsetY",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "radius",
             {
               "kind": "prim",
               "name": "f32"
@@ -33130,7 +33179,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "ptr",
               "base": {
@@ -33140,14 +33189,14 @@
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "c",
             {
               "kind": "prim",
               "name": "f32"
@@ -33166,7 +33215,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "ptr",
               "base": {
@@ -33176,14 +33225,14 @@
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "c",
             {
               "kind": "prim",
               "name": "s16"
@@ -33238,7 +33287,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "ptr",
               "base": {
@@ -33248,14 +33297,14 @@
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "c",
             {
               "kind": "prim",
               "name": "f32"
@@ -33274,7 +33323,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "ptr",
               "base": {
@@ -33285,7 +33334,7 @@
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "ptr",
               "base": {
@@ -33296,28 +33345,28 @@
             }
           ],
           [
-            "",
+            "c",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "d",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "e",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "f",
             {
               "kind": "prim",
               "name": "f32"
@@ -33395,7 +33444,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "ptr",
               "base": {
@@ -33406,7 +33455,7 @@
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "ptr",
               "base": {
@@ -33417,7 +33466,7 @@
             }
           ],
           [
-            "",
+            "c",
             {
               "kind": "ptr",
               "base": {
@@ -33428,7 +33477,7 @@
             }
           ],
           [
-            "",
+            "d",
             {
               "kind": "prim",
               "name": "f32"
@@ -33447,7 +33496,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "ptr",
               "base": {
@@ -33458,7 +33507,7 @@
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "ptr",
               "base": {
@@ -33479,8 +33528,31 @@
           "kind": "prim",
           "name": "s16"
         },
-        "params": [],
-        "variadic": true
+        "params": [
+          [
+            "a",
+            {
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
+            }
+          ],
+          [
+            "b",
+            {
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "typedef",
+                "name": "Vec3f"
+              }
+            }
+          ]
+        ],
+        "variadic": false
       }
     },
     "func_8028A578": {
@@ -33492,7 +33564,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "ptr",
               "base": {
@@ -33503,7 +33575,7 @@
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "ptr",
               "base": {
@@ -33514,7 +33586,7 @@
             }
           ],
           [
-            "",
+            "c",
             {
               "kind": "ptr",
               "base": {
@@ -33524,7 +33596,7 @@
             }
           ],
           [
-            "",
+            "d",
             {
               "kind": "ptr",
               "base": {
@@ -33546,7 +33618,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "ptr",
               "base": {
@@ -33557,7 +33629,7 @@
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "ptr",
               "base": {
@@ -33580,7 +33652,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "ptr",
               "base": {
@@ -33591,7 +33663,7 @@
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "ptr",
               "base": {
@@ -33614,7 +33686,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "ptr",
               "base": {
@@ -33625,7 +33697,7 @@
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "ptr",
               "base": {
@@ -33636,7 +33708,7 @@
             }
           ],
           [
-            "",
+            "c",
             {
               "kind": "prim",
               "name": "u16"
@@ -33655,7 +33727,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "ptr",
               "base": {
@@ -33666,7 +33738,7 @@
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "ptr",
               "base": {
@@ -33677,7 +33749,7 @@
             }
           ],
           [
-            "",
+            "c",
             {
               "kind": "prim",
               "name": "u16"
@@ -33696,21 +33768,21 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "c",
             {
               "kind": "prim",
               "name": "s16"
@@ -33729,21 +33801,21 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "c",
             {
               "kind": "prim",
               "name": "s16"
@@ -33762,21 +33834,21 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "c",
             {
               "kind": "prim",
               "name": "s16"
@@ -33795,49 +33867,49 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "c",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "d",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "e",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "f",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "g",
             {
               "kind": "prim",
               "name": "f32"
@@ -33982,7 +34054,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "prim",
               "name": "s32"
@@ -34001,7 +34073,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "ptr",
               "base": {
@@ -34024,21 +34096,21 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "c",
             {
               "kind": "prim",
               "name": "f32"
@@ -34057,7 +34129,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "ptr",
               "base": {
@@ -34068,14 +34140,14 @@
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "c",
             {
               "kind": "prim",
               "name": "f32"
@@ -34094,7 +34166,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "ptr",
               "base": {
@@ -34105,7 +34177,7 @@
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "ptr",
               "base": {
@@ -34116,7 +34188,7 @@
             }
           ],
           [
-            "",
+            "c",
             {
               "kind": "ptr",
               "base": {
@@ -34127,7 +34199,7 @@
             }
           ],
           [
-            "",
+            "d",
             {
               "kind": "ptr",
               "base": {
@@ -36974,7 +37046,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "prim",
               "name": "s32"
@@ -46344,7 +46416,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "prim",
               "name": "u32"
@@ -46908,7 +46980,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "prim",
               "name": "s16"
@@ -46927,14 +46999,14 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "prim",
               "name": "u32"
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -46948,35 +47020,35 @@
             }
           ],
           [
-            "",
+            "a2",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "a3",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "a4",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "a5",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "a6",
             {
               "kind": "prim",
               "name": "s16"
@@ -46995,14 +47067,14 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "prim",
               "name": "u32"
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -47016,35 +47088,35 @@
             }
           ],
           [
-            "",
+            "a2",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "a3",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "a4",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "a5",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "a6",
             {
               "kind": "prim",
               "name": "s16"
@@ -47063,14 +47135,14 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "prim",
               "name": "u32"
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -47084,42 +47156,42 @@
             }
           ],
           [
-            "",
+            "a2",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "a3",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "a4",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "a5",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "a6",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "a7",
             {
               "kind": "prim",
               "name": "s16"
@@ -47138,7 +47210,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -47152,7 +47224,7 @@
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -47178,14 +47250,14 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -47207,14 +47279,14 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -47236,14 +47308,14 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "prim",
               "name": "s16"
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -51111,7 +51183,7 @@
         },
         "params": [
           [
-            "",
+            "m",
             {
               "kind": "ptr",
               "base": {
@@ -51122,7 +51194,7 @@
             }
           ],
           [
-            "",
+            "o",
             {
               "kind": "ptr",
               "base": {
@@ -51145,7 +51217,7 @@
         },
         "params": [
           [
-            "",
+            "m",
             {
               "kind": "ptr",
               "base": {
@@ -51168,7 +51240,7 @@
         },
         "params": [
           [
-            "",
+            "m",
             {
               "kind": "ptr",
               "base": {
@@ -51191,7 +51263,7 @@
         },
         "params": [
           [
-            "",
+            "m",
             {
               "kind": "ptr",
               "base": {
@@ -51214,7 +51286,7 @@
         },
         "params": [
           [
-            "",
+            "m",
             {
               "kind": "ptr",
               "base": {
@@ -51237,7 +51309,7 @@
         },
         "params": [
           [
-            "",
+            "m",
             {
               "kind": "ptr",
               "base": {
@@ -51260,7 +51332,7 @@
         },
         "params": [
           [
-            "",
+            "m",
             {
               "kind": "ptr",
               "base": {
@@ -51283,7 +51355,7 @@
         },
         "params": [
           [
-            "",
+            "m",
             {
               "kind": "ptr",
               "base": {
@@ -51294,7 +51366,7 @@
             }
           ],
           [
-            "",
+            "capSpeed",
             {
               "kind": "prim",
               "name": "f32"
@@ -51313,7 +51385,7 @@
         },
         "params": [
           [
-            "",
+            "arg",
             {
               "kind": "prim",
               "name": "u32"
@@ -51347,7 +51419,7 @@
         },
         "params": [
           [
-            "",
+            "m",
             {
               "kind": "ptr",
               "base": {
@@ -51358,7 +51430,7 @@
             }
           ],
           [
-            "",
+            "interactType",
             {
               "kind": "prim",
               "name": "u32"
@@ -51377,7 +51449,7 @@
         },
         "params": [
           [
-            "",
+            "m",
             {
               "kind": "ptr",
               "base": {
@@ -51400,7 +51472,7 @@
         },
         "params": [
           [
-            "",
+            "door",
             {
               "kind": "ptr",
               "base": {
@@ -51423,7 +51495,7 @@
         },
         "params": [
           [
-            "",
+            "m",
             {
               "kind": "ptr",
               "base": {
@@ -51446,7 +51518,7 @@
         },
         "params": [
           [
-            "",
+            "m",
             {
               "kind": "ptr",
               "base": {
@@ -51534,7 +51606,7 @@
         },
         "params": [
           [
-            "",
+            "obj1",
             {
               "kind": "ptr",
               "base": {
@@ -51545,7 +51617,7 @@
             }
           ],
           [
-            "",
+            "obj2",
             {
               "kind": "ptr",
               "base": {
@@ -72630,7 +72702,7 @@
         },
         "params": [
           [
-            "",
+            "data",
             {
               "kind": "ptr",
               "base": {
@@ -72655,14 +72727,14 @@
         },
         "params": [
           [
-            "",
+            "size",
             {
               "kind": "prim",
               "name": "u32"
             }
           ],
           [
-            "",
+            "permanence",
             {
               "kind": "prim",
               "name": "u8"
@@ -72685,21 +72757,21 @@
         },
         "params": [
           [
-            "",
+            "size",
             {
               "kind": "prim",
               "name": "u32"
             }
           ],
           [
-            "",
+            "addr",
             {
               "kind": "prim",
               "name": "u32"
             }
           ],
           [
-            "",
+            "permanence",
             {
               "kind": "prim",
               "name": "u8"
@@ -74650,7 +74722,7 @@
         },
         "params": [
           [
-            "",
+            "self",
             {
               "kind": "ptr",
               "base": {
@@ -74673,7 +74745,7 @@
         },
         "params": [
           [
-            "",
+            "mtl",
             {
               "kind": "ptr",
               "base": {
@@ -74700,7 +74772,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "prim",
               "name": "s32"
@@ -74719,7 +74791,7 @@
         },
         "params": [
           [
-            "",
+            "self",
             {
               "kind": "ptr",
               "base": {
@@ -74742,7 +74814,7 @@
         },
         "params": [
           [
-            "",
+            "label",
             {
               "kind": "ptr",
               "base": {
@@ -74765,7 +74837,7 @@
         },
         "params": [
           [
-            "",
+            "self",
             {
               "kind": "ptr",
               "base": {
@@ -74788,7 +74860,7 @@
         },
         "params": [
           [
-            "",
+            "gdgt",
             {
               "kind": "ptr",
               "base": {
@@ -74811,7 +74883,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "ptr",
               "base": {
@@ -74834,7 +74906,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "ptr",
               "base": {
@@ -74845,7 +74917,7 @@
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "ptr",
               "base": {
@@ -74856,7 +74928,7 @@
             }
           ],
           [
-            "",
+            "c",
             {
               "kind": "ptr",
               "base": {
@@ -74879,7 +74951,7 @@
         },
         "params": [
           [
-            "",
+            "nop",
             {
               "kind": "ptr",
               "base": {
@@ -74902,7 +74974,7 @@
         },
         "params": [
           [
-            "",
+            "self",
             {
               "kind": "ptr",
               "base": {
@@ -74925,7 +74997,7 @@
         },
         "params": [
           [
-            "",
+            "self",
             {
               "kind": "ptr",
               "base": {
@@ -74948,7 +75020,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "ptr",
               "base": {
@@ -74971,7 +75043,7 @@
         },
         "params": [
           [
-            "",
+            "grp",
             {
               "kind": "ptr",
               "base": {
@@ -74994,7 +75066,7 @@
         },
         "params": [
           [
-            "",
+            "self",
             {
               "kind": "ptr",
               "base": {
@@ -75017,7 +75089,7 @@
         },
         "params": [
           [
-            "",
+            "obj",
             {
               "kind": "ptr",
               "base": {
@@ -75040,7 +75112,7 @@
         },
         "params": [
           [
-            "",
+            "grp",
             {
               "kind": "ptr",
               "base": {
@@ -75063,7 +75135,7 @@
         },
         "params": [
           [
-            "",
+            "a",
             {
               "kind": "ptr",
               "base": {
@@ -75074,7 +75146,7 @@
             }
           ],
           [
-            "",
+            "b",
             {
               "kind": "ptr",
               "base": {
@@ -75097,7 +75169,7 @@
         },
         "params": [
           [
-            "",
+            "facegrp",
             {
               "kind": "ptr",
               "base": {
@@ -75108,7 +75180,7 @@
             }
           ],
           [
-            "",
+            "vtxgrp",
             {
               "kind": "ptr",
               "base": {
@@ -75131,7 +75203,7 @@
         },
         "params": [
           [
-            "",
+            "view",
             {
               "kind": "ptr",
               "base": {
@@ -75391,7 +75463,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -75413,7 +75485,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -75436,7 +75508,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -75447,7 +75519,7 @@
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -75473,7 +75545,7 @@
         },
         "params": [
           [
-            "",
+            "objFlag",
             {
               "kind": "prim",
               "name": "s32"
@@ -75496,7 +75568,7 @@
         },
         "params": [
           [
-            "",
+            "objType",
             {
               "kind": "prim",
               "name": "s32"
@@ -75515,7 +75587,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -75526,7 +75598,7 @@
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -75537,7 +75609,7 @@
             }
           ],
           [
-            "",
+            "a2",
             {
               "kind": "ptr",
               "base": {
@@ -75564,7 +75636,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -75575,7 +75647,7 @@
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -75602,7 +75674,7 @@
         },
         "params": [
           [
-            "",
+            "head",
             {
               "kind": "ptr",
               "base": {
@@ -75613,7 +75685,7 @@
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -75637,8 +75709,30 @@
             "name": "void"
           }
         },
-        "params": [],
-        "variadic": true
+        "params": [
+          [
+            "linkHead",
+            {
+              "kind": "ptr",
+              "base": {
+                "kind": "prim",
+                "name": "void"
+              }
+            }
+          ],
+          [
+            "object",
+            {
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "struct",
+                "name": "ObjHeader"
+              }
+            }
+          ]
+        ],
+        "variadic": false
       }
     },
     "make_valptrs": {
@@ -75654,7 +75748,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -75664,21 +75758,21 @@
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "a2",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "a3",
             {
               "kind": "prim",
               "name": "s32"
@@ -75697,7 +75791,7 @@
         },
         "params": [
           [
-            "",
+            "plane",
             {
               "kind": "ptr",
               "base": {
@@ -75724,7 +75818,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -75734,7 +75828,7 @@
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -75761,14 +75855,14 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -75795,14 +75889,14 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "name",
             {
               "kind": "ptr",
               "base": {
@@ -75812,7 +75906,7 @@
             }
           ],
           [
-            "",
+            "a2",
             {
               "kind": "prim",
               "name": "s32"
@@ -75835,14 +75929,14 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "name",
             {
               "kind": "ptr",
               "base": {
@@ -75852,7 +75946,7 @@
             }
           ],
           [
-            "",
+            "a2",
             {
               "kind": "prim",
               "name": "s32"
@@ -75875,56 +75969,56 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "a2",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "a3",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "sp38",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "sp3C",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "sp40",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "sp44",
             {
               "kind": "ptr",
               "base": {
@@ -75966,21 +76060,21 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "a2",
             {
               "kind": "ptr",
               "base": {
@@ -75991,7 +76085,7 @@
             }
           ],
           [
-            "",
+            "a3",
             {
               "kind": "prim",
               "name": "f32"
@@ -76014,14 +76108,14 @@
         },
         "params": [
           [
-            "",
+            "type",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "fromObj",
             {
               "kind": "ptr",
               "base": {
@@ -76032,7 +76126,7 @@
             }
           ],
           [
-            "",
+            "toObj",
             {
               "kind": "ptr",
               "base": {
@@ -76055,7 +76149,7 @@
         },
         "params": [
           [
-            "",
+            "str",
             {
               "kind": "ptr",
               "base": {
@@ -76065,7 +76159,7 @@
             }
           ],
           [
-            "",
+            "obj",
             {
               "kind": "ptr",
               "base": {
@@ -76111,7 +76205,7 @@
         },
         "params": [
           [
-            "",
+            "group",
             {
               "kind": "ptr",
               "base": {
@@ -76122,7 +76216,7 @@
             }
           ],
           [
-            "",
+            "obj",
             {
               "kind": "ptr",
               "base": {
@@ -76145,7 +76239,7 @@
         },
         "params": [
           [
-            "",
+            "group",
             {
               "kind": "ptr",
               "base": {
@@ -76156,7 +76250,7 @@
             }
           ],
           [
-            "",
+            "obj",
             {
               "kind": "ptr",
               "base": {
@@ -76179,7 +76273,7 @@
         },
         "params": [
           [
-            "",
+            "group",
             {
               "kind": "ptr",
               "base": {
@@ -76190,7 +76284,7 @@
             }
           ],
           [
-            "",
+            "obj",
             {
               "kind": "ptr",
               "base": {
@@ -76213,7 +76307,7 @@
         },
         "params": [
           [
-            "",
+            "type",
             {
               "kind": "prim",
               "name": "s32"
@@ -76254,7 +76348,7 @@
         },
         "params": [
           [
-            "",
+            "obj",
             {
               "kind": "ptr",
               "base": {
@@ -76292,7 +76386,7 @@
         },
         "params": [
           [
-            "",
+            "obj",
             {
               "kind": "ptr",
               "base": {
@@ -76303,7 +76397,7 @@
             }
           ],
           [
-            "",
+            "type",
             {
               "kind": "prim",
               "name": "s32"
@@ -76320,8 +76414,53 @@
           "kind": "prim",
           "name": "s32"
         },
-        "params": [],
-        "variadic": true
+        "params": [
+          [
+            "types",
+            {
+              "kind": "prim",
+              "name": "s32"
+            }
+          ],
+          [
+            "fn",
+            {
+              "kind": "ptr",
+              "base": {
+                "kind": "func",
+                "ret": {
+                  "kind": "prim",
+                  "name": "void"
+                },
+                "params": [
+                  [
+                    "",
+                    {
+                      "kind": "ptr",
+                      "base": {
+                        "kind": "prim",
+                        "name": "void"
+                      }
+                    }
+                  ]
+                ],
+                "variadic": false
+              }
+            }
+          ],
+          [
+            "group",
+            {
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "struct",
+                "name": "ObjGroup"
+              }
+            }
+          ]
+        ],
+        "variadic": false
       }
     },
     "func_8017E584": {
@@ -76333,7 +76472,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -76344,7 +76483,7 @@
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -76355,7 +76494,7 @@
             }
           ],
           [
-            "",
+            "a2",
             {
               "kind": "ptr",
               "base": {
@@ -76378,7 +76517,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -76389,7 +76528,7 @@
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -76400,7 +76539,7 @@
             }
           ],
           [
-            "",
+            "a2",
             {
               "kind": "ptr",
               "base": {
@@ -76423,7 +76562,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -76446,7 +76585,7 @@
         },
         "params": [
           [
-            "",
+            "vec",
             {
               "kind": "ptr",
               "base": {
@@ -76457,7 +76596,7 @@
             }
           ],
           [
-            "",
+            "matrix",
             {
               "kind": "ptr",
               "base": {
@@ -76480,7 +76619,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -76491,7 +76630,7 @@
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -76514,7 +76653,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -76525,7 +76664,7 @@
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -76548,7 +76687,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -76559,7 +76698,7 @@
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -76582,7 +76721,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -76593,7 +76732,7 @@
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -76616,7 +76755,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -76627,7 +76766,7 @@
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -76650,7 +76789,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -76661,7 +76800,7 @@
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -76684,14 +76823,14 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -76702,7 +76841,7 @@
             }
           ],
           [
-            "",
+            "a2",
             {
               "kind": "ptr",
               "base": {
@@ -76725,7 +76864,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -76736,7 +76875,7 @@
             }
           ],
           [
-            "",
+            "a1",
             {
               "kind": "ptr",
               "base": {
@@ -76747,7 +76886,7 @@
             }
           ],
           [
-            "",
+            "a2",
             {
               "kind": "prim",
               "name": "f32"
@@ -76766,7 +76905,7 @@
         },
         "params": [
           [
-            "",
+            "animObj",
             {
               "kind": "ptr",
               "base": {
@@ -76789,7 +76928,7 @@
         },
         "params": [
           [
-            "",
+            "inputObj",
             {
               "kind": "ptr",
               "base": {
@@ -76833,8 +76972,20 @@
           "kind": "prim",
           "name": "void"
         },
-        "params": [],
-        "variadic": true
+        "params": [
+          [
+            "group",
+            {
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "struct",
+                "name": "ObjGroup"
+              }
+            }
+          ]
+        ],
+        "variadic": false
       }
     },
     "Unknown801809B0": {
@@ -76846,7 +76997,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -76869,7 +77020,7 @@
         },
         "params": [
           [
-            "",
+            "group",
             {
               "kind": "ptr",
               "base": {
@@ -76892,7 +77043,7 @@
         },
         "params": [
           [
-            "",
+            "light",
             {
               "kind": "ptr",
               "base": {
@@ -76915,7 +77066,7 @@
         },
         "params": [
           [
-            "",
+            "group",
             {
               "kind": "ptr",
               "base": {
@@ -76936,8 +77087,20 @@
           "kind": "prim",
           "name": "void"
         },
-        "params": [],
-        "variadic": true
+        "params": [
+          [
+            "a0",
+            {
+              "kind": "ptr",
+              "base": {
+                "kind": "sym",
+                "symtype": "struct",
+                "name": "ObjView"
+              }
+            }
+          ]
+        ],
+        "variadic": false
       }
     },
     "func_801814F4": {
@@ -76949,7 +77112,7 @@
         },
         "params": [
           [
-            "",
+            "group",
             {
               "kind": "ptr",
               "base": {
@@ -77754,7 +77917,7 @@
         },
         "params": [
           [
-            "",
+            "face",
             {
               "kind": "ptr",
               "base": {
@@ -77781,21 +77944,21 @@
         },
         "params": [
           [
-            "",
+            "x",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "y",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "z",
             {
               "kind": "prim",
               "name": "f32"
@@ -77818,21 +77981,21 @@
         },
         "params": [
           [
-            "",
+            "x",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "y",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "z",
             {
               "kind": "prim",
               "name": "f32"
@@ -77851,7 +78014,7 @@
         },
         "params": [
           [
-            "",
+            "face",
             {
               "kind": "ptr",
               "base": {
@@ -77862,7 +78025,7 @@
             }
           ],
           [
-            "",
+            "vtx1",
             {
               "kind": "ptr",
               "base": {
@@ -77873,7 +78036,7 @@
             }
           ],
           [
-            "",
+            "vtx2",
             {
               "kind": "ptr",
               "base": {
@@ -77884,7 +78047,7 @@
             }
           ],
           [
-            "",
+            "vtx3",
             {
               "kind": "ptr",
               "base": {
@@ -77911,14 +78074,14 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "prim",
               "name": "s32"
             }
           ],
           [
-            "",
+            "name",
             {
               "kind": "ptr",
               "base": {
@@ -77940,7 +78103,7 @@
         },
         "params": [
           [
-            "",
+            "shape",
             {
               "kind": "ptr",
               "base": {
@@ -77951,21 +78114,21 @@
             }
           ],
           [
-            "",
+            "x",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "y",
             {
               "kind": "prim",
               "name": "f32"
             }
           ],
           [
-            "",
+            "z",
             {
               "kind": "prim",
               "name": "f32"
@@ -77988,7 +78151,7 @@
         },
         "params": [
           [
-            "",
+            "shape",
             {
               "kind": "ptr",
               "base": {
@@ -78011,7 +78174,7 @@
         },
         "params": [
           [
-            "",
+            "self",
             {
               "kind": "ptr",
               "base": {
@@ -78034,7 +78197,7 @@
         },
         "params": [
           [
-            "",
+            "self",
             {
               "kind": "ptr",
               "base": {
@@ -80666,7 +80829,7 @@
         },
         "params": [
           [
-            "",
+            "a0",
             {
               "kind": "ptr",
               "base": {
@@ -80689,7 +80852,7 @@
         },
         "params": [
           [
-            "",
+            "net",
             {
               "kind": "ptr",
               "base": {
@@ -80712,7 +80875,7 @@
         },
         "params": [
           [
-            "",
+            "joint",
             {
               "kind": "ptr",
               "base": {
@@ -80735,7 +80898,7 @@
         },
         "params": [
           [
-            "",
+            "joint",
             {
               "kind": "ptr",
               "base": {
